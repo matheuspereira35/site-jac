@@ -1,0 +1,247 @@
+.principal-rodape{
+    width: 100vw;
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A9B475;
+
+}
+
+.topo-rodape{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos-rodape{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+.wpp-rodape{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.wpp-rodape p{
+    font-size: 25px;
+    font-family: 'Open Sans';
+    color: white;
+}
+
+.wpp-rodape img{
+    width: 50px;
+    height: 50px;
+}
+
+.mail-rodape{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.mail-rodape p{
+    font-size: 25px;
+    font-family: 'Open Sans';
+    margin-top: 0;
+    color: white;
+}
+
+.mail-rodape img{
+    width: 50px;
+    height: 40px;
+}
+
+.form-rodape{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.form-rodape p{
+    font-size: 25px;
+    font-family: 'Open Sans';
+    margin-top: 0;
+    color: white;
+}
+
+
+
+.logo-rodape{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.divisor-rodape{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+}
+
+.rodape-rodape{
+
+    width: 90%;
+    height: 40%;
+    display: flex;
+  
+}
+
+.politicas-termos{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.politicas-termos a{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.icons-rodape{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+}
+
+.rodape-icons{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.insta-icon-rodape{
+    width: 50px;
+    height: 50px;
+
+}
+
+.mail-icon-rodape{
+    width: 50px;
+    height: 40px;
+}
+
+.link-icon-rodape{
+    width: 100px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 1534) {
+
+}
+@media screen and (max-width: 900px) and (min-width: 450px) {
+
+}
+@media screen and (max-width: 450px) {
+
+   .principal-rodape{
+    height: 100vh;
+   }
+
+   .topo-rodape{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+   }
+
+   .logo-rodape{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   }
+
+   .logo-rodape img{
+    width: 200px;
+    height: 100px;
+   }
+
+
+.contatos-rodape{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+.wpp-rodape{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.wpp-rodape p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: white;
+}
+
+.wpp-rodape img{
+    width: 20px;
+    height: 20px;
+}
+
+.mail-rodape{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail-rodape p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    margin-top: 0;
+    color: white;
+}
+
+.mail-rodape img{
+    width: 30px;
+    height: 20px;
+}
+
+.form-rodape{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-rodape p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    margin-top: 0;
+    color: white;
+}
+
+.form-rodape svg{
+    width: 20px;
+
+}
+
+
+
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.topo{
+    width: 100vw;
+    height: 100vh;
+}
+
+.colado{
+    position: sticky;
+    z-index: 50;
+    top: 0;
+    height: 20vh;
+
+}
+
+
+@media screen and (max-width: 1534) {
+
+}
+@media screen and (max-width: 900px) and (min-width: 450px) {
+
+}
+@media screen and (max-width: 450px) {
+    .colado{
+        display: none;
+    }
+}

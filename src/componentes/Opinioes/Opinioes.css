@@ -1,0 +1,77 @@
+.principal-opinioes{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6F8F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg-opinioes1{
+    margin-top: 100px;
+    background-color: #D2D8BE;
+    height: 90vh;
+    width: 100vw;
+    border-radius: 600px 200px 200px 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+    left: 0;
+}
+
+.titulo-opinioes{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo-opinioes div{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bg-opinioes1 h1{
+    font-size: 60px;
+    font-family: 'Open Sans';
+}
+
+.btn-agendar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-agendar div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-agendar a{
+    background-color: white;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: #706F21;
+    text-decoration: none;
+    text-shadow: 2px 2px #A0A19F;
+    font-weight: 600;
+    box-shadow: -1px 9px 37px -12px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,256 @@
+.principal-psicoterapia{
+    background-color: #F6F8F4;
+    width: 100vw;
+    height: 180vh;
+}
+
+.topo-psicoterapia{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-psicoterapia h1{
+    font-size: 55px;
+    color: #7A6D4E;
+    font-weight: 500;
+    font-family: 'Open Sans';
+}
+
+.topicos-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 50%;
+}
+
+.topicos-topo p{
+    font-size: 30px;
+    color: #7A6D4E;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.topico-topo{
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.topico-topo svg{
+    color: #7A6D4E;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.topicos-psicoterapia{
+    
+    background-color: #EDEADD;
+    width: 100%;
+    height: 89%;
+    border-radius: 100px;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topico-psicoterapia{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 30%;
+    display: flex;
+}
+
+.passo-psi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.textos-psi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    height: 100%;
+    width: 50%;
+}
+
+.passo-psi h1{
+    font-size: 44px;
+    font-weight: 200;
+    color: #283106;
+    font-family: 'Open Sans';
+}
+
+.passo-psi h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: #283106;
+    font-family: 'Kalam', sans-serif;
+}
+
+.passo-psi p{
+    font-size: 22px;
+    font-weight: 100;
+    color: #283106;
+    width: 88%;
+ 
+}
+
+.num-pis{
+    width: 50%;
+    height: 20%;
+}
+
+.num-pis img{
+    width: 100px;
+
+}
+
+.img-psi-barco{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-barco{
+
+    background-image: url('../../assets/images/barco.png');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+ 
+
+}
+
+.img-psi-chat{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-chat{
+
+    background-image: url('../../assets/images/chat.png');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+ 
+
+}
+.img-psi-bike{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.img-bike{
+
+    background-image: url('../../assets/images/bike.png');
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+ 
+
+}
+
+@media screen and (max-width: 1534) {
+
+}
+@media screen and (max-width: 900px) and (min-width: 450px) {
+
+}
+@media screen and (max-width: 450px) {
+
+    
+    .topicos-topo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: max-content;
+        width: 50%;
+    }
+    
+    .topicos-topo p{
+        font-size: 0.8rem;
+        color: #7A6D4E;
+        text-align: center;
+        font-family: 'Open Sans';
+    }
+    
+    .topico-topo{
+        height: 100%;
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .topico-topo svg{
+        color: #7A6D4E;
+        margin-right: 10px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .topicos-psicoterapia{
+        border-radius: 20px;
+    }
+
+    .topico-psicoterapia{
+        width: 100%;
+
+    }
+    .passo-psi{
+        width: 100%;
+    }
+
+    .textos-psi h1{
+        font-size: 2rem;
+    }
+
+    .textos-psi h2{
+        font-size: 1rem;
+    }
+
+    .textos-psi p{
+        font-size: 0.8rem;
+    }
+
+    .img-barco{
+        width: 100px;
+        height: 65px;
+    }
+
+    .img-psi-chat{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .img-chat{
+        width: 100px;
+        height: 70px;
+    }
+
+    .img-psi-bike{
+        justify-content: center;
+    }
+
+    .img-bike{
+        width: 120px;
+        height: 75px;
+    }
+}
