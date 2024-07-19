@@ -199,6 +199,47 @@
 }
 @media screen and (max-width: 450px) {
 
-   
+
+    .cards-blog{
+        justify-content: space-around;
+        width: 80%;
+    }
+    .cards-blog1, .cards-blog4{
+        width: 50%;
+    }
+
+    .cards-blog2{
+        display: none;
+    }
+   .cards-blog3{
+    display: none;
+   }
+
+   .card1, .card2,.card-inteligencia-emocional{
+    width: 150px;
+    height: 25%;
+   }
+
+   .card-entendendo-ciclo, .card3 {
+    width: 150px;
+    height: 30%;
+   }
+
+   .card-inteligencia-emocional{
+    background-image: url("../../assets/images/ebooklinguagensdoamor.png");
+    background-size: contain;
+    background-position: center;
+   }
+
+   .link-artigo a{
+    width: 50%;
+    font-size: 0.8rem;
+   }
+   .topo-card3 p{
+        font-size: 1rem;
+   }
+   .seta_card3 svg{
+    width: 35px;
+   }
 
 }

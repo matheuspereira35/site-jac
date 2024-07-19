@@ -225,9 +225,10 @@
     .textos-psi h2{
         font-size: 1rem;
     }
-
+    
     .textos-psi p{
         font-size: 0.8rem;
+        font-weight: 500;
     }
 
     .img-barco{
