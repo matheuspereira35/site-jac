@@ -301,6 +301,11 @@ h1{
         border-radius: 10px;
     }
 
+    h1{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
     .loc{
         justify-content: space-evenly;
     }
