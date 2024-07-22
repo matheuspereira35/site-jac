@@ -128,7 +128,7 @@
   height: 20px;
 }
 
-@media screen and (max-width: 1534) {
+@media screen and (max-width: 1534px) {
 
   .bg-video::before {
     content: "";
@@ -143,31 +143,8 @@
   }
 }
 
-@media screen and (max-width: 900px) and (min-width: 450px) {
-  .logo {
-    width: 300px;
-    height: 350px;
-    text-align: center;
-  }
-  .botoes {
-    width: 200px;
-    height: 400px;
-    text-align: center;
-    margin: 10px;
-  }
+@media screen and (max-width: 1149px) {
 
-  .botoes button {
-    width: 120px;
-    height: 40px;
-    text-align: center;
-  }
-
-  .contatos {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-width: 450px) {
 
   .divisor1 {
     width: 100%;

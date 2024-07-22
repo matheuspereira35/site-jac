@@ -37,14 +37,14 @@ const Home = ({ scrollToSobreMim, scrollToPsicoterapia, scrollToEspaco, scrollTo
           <a
             rel="noreferrer"
             target="_blank"
-            href="mailto:ronivamronaldo@gmail.com?subject=Teste de Email"
+            href="mailto:jacqueline.g.nunes@gmail.com"
           >
             <img className="mail" src={LogoMail} alt="email" />
           </a>
-          <a rel="noreferrer" target="_blank" href="https://www.instagram.com">
+          <a rel="noreferrer" target="_blank" href="https://wa.me/5561992081099">
             <img className="insta" src={LogoWpp} alt="wpp" />
           </a>
-          <a rel="noreferrer" target="_blank" href="https://www.instagram.com">
+          <a rel="noreferrer" target="_blank" href="https://linktr.ee/psijacquelineguimaraes?utm_source=linktree_admin_share">
             <img className="linktree" src={LogoLink} alt="link" />
           </a>
         </div>

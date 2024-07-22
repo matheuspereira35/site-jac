@@ -56,7 +56,7 @@ const Duvidas = () => {
         <h2>Para mais informações sobre o processo terapêutico, incluindo valores das consultas, entre em contato pelo WhatsApp.</h2>
       </div>
     <div className="btn-agendar-duvidas">
-        <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">AGENDAR</a>
+        <a href="https://wa.me/5561992081099" target="_blank" rel="noreferrer">AGENDAR</a>
     </div>
         
     </div>

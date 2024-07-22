@@ -6,7 +6,6 @@ import Linktree from "../../assets/images/logo-link.png";
 import WppBranco from "../../assets/images/wpp-logo.png";
 import InstaLogo from "../../assets/images/insta-logo.png";
 
-
 const Rodape = () => {
   return (
     <div className="principal-rodape">
@@ -14,11 +13,23 @@ const Rodape = () => {
         <div className="contatos-rodape">
           <div className="wpp-rodape">
             <img src={WppLogo} alt="wpp" />
-            <p>+55 61 99208-1099</p>
+            <a
+              href="https://wa.me/5561992081099"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>+55 61 99208-1099</p>
+            </a>
           </div>
           <div className="mail-rodape">
             <img src={MailLogo} alt="wpp" />
-            <p>Jacqueline.g.nunes@gmail.com</p>
+            <a
+              href="mailto:jacqueline.g.nunes@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>Jacqueline.g.nunes@gmail.com</p>
+            </a>
           </div>
           <div className="form-rodape">
             <svg
@@ -35,35 +46,71 @@ const Rodape = () => {
                 d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"
               />
             </svg>
-            <p>Preencher Google Forms</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScIrmm5u32gXkl9oTwN9-srG2tLrdUdbKQp4VjwrqVfB2w4Yw/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>Preencher Google Forms</p>
+            </a>
           </div>
         </div>
         <div className="logo-rodape">
-            <img src={LogoBranca} alt="logo"/>
+          <img src={LogoBranca} alt="logo" />
         </div>
       </div>
       <div className="divisor-rodape"></div>
       <div className="rodape-rodape">
         <div className="politicas-termos">
-            <a href="https://www.google.com/">Política de Privacidade</a>
-            <a href="https://www.google.com/">Termos e condições</a>
-            <a href="https://www.google.com/">© 2023 Jacqueline Guimarães ∙ Todos os direitos reservados</a>
+          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+            Política de Privacidade
+          </a>
+          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+            Termos e condições
+          </a>
+          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+            © 2023 Jacqueline Guimarães ∙ Todos os direitos reservados
+          </a>
         </div>
         <div className="icons-rodape">
-            <div className="rodape-icons">
+          <div className="rodape-icons">
             <div>
-            <img src={InstaLogo} alt="" className="insta-icon-rodape"/>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={InstaLogo} alt="" className="insta-icon-rodape" />
+              </a>
             </div>
             <div>
-            <img src={MailLogo} alt="" className="mail-icon-rodape"/>
+              <a
+                href="mailto:jacqueline.g.nunes@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={MailLogo} alt="" className="mail-icon-rodape" />
+              </a>
             </div>
             <div>
-            <img src={WppBranco} alt="" className="insta-icon-rodape"/>
+              <a
+                href="https://wa.me/5561992081099"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={WppBranco} alt="" className="insta-icon-rodape" />
+              </a>
             </div>
             <div>
-            <img src={Linktree} alt="" className="link-icon-rodape"/>
+              <a
+                href="https://linktr.ee/psijacquelineguimaraes?utm_source=linktree_admin_share"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={Linktree} alt="" className="link-icon-rodape" />
+              </a>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -25,12 +25,12 @@ const SobreMim = () => {
           possam explorar suas emoções e pensamentos de forma livre e confidencial.
           </p>
 
-          <a target="_blank" rel="noreferrer" href="https://web.whatsapp.com/">AGENDAR</a>
+          <a target="_blank" rel="noreferrer" href="https://wa.me/5561992081099">AGENDAR</a>
         </div>
         </div>
         <div className="div-foto-jac">
           <div className="foto-jac">
-            {/* <img src={FotoJac} alt="fotoJac"/> */}
+         
           </div>
         </div>
       </div>

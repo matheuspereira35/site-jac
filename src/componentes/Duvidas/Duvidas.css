@@ -54,13 +54,28 @@
 
 
 
-@media screen and (max-width: 1534) {
+@media screen and (max-width: 1534px) {
+    .principal-duvidas{
+        height: 150vh;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 680px) {
 
 }
-@media screen and (max-width: 900px) and (min-width: 450px) {
 
+@media screen and (max-width: 680px) {
+    .topo-duvidas h1{
+        font-size: 3rem;
+    }    
 }
+
 @media screen and (max-width: 450px) {
+
+    .principal-duvidas{
+        height: 150vh;
+        justify-content: center;
+    }
 
     .topo-duvidas h1{
         font-size: 1.5rem;

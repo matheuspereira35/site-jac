@@ -19,7 +19,7 @@ const BarraMenu = ({ scrollToHome, scrollToSobreMim, scrollToPsicoterapia, scrol
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://web.whatsapp.com/"
+          href="https://wa.me/5561992081099"
           className="btn-wpp"
         >
           <img src={WppLogo} alt="wppLogo" />

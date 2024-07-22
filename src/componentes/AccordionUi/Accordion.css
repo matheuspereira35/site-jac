@@ -45,16 +45,16 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1534) {
+@media screen and (max-width: 1534px) {
 
 }
 @media screen and (max-width: 900px) and (min-width: 450px) {
-    .titulo-accordion p{
-        font-size: 0.5rem;
+    .titulo-accordion, .texto-accordion{
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 450px) {
-    .titulo-accordion p{
-        font-size: 0.5rem;
+    .titulo-accordion, .texto-accordion{
+        font-size: 0.8rem;
     }
 }

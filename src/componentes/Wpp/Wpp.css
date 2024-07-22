@@ -55,6 +55,12 @@
     }
 }
 
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    .wpp-logo{
+        left: 85%;
+    }
+}
+
 @media screen and (max-width: 900px) and (min-width: 450px){
     .wpp-logo{
       display: none;
