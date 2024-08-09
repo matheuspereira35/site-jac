@@ -1,0 +1,20 @@
+.review-card{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.review-card p{
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .review-card{
+        width: 200px;
+        height: fit-content;
+    }
+}

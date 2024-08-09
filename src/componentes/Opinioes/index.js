@@ -1,6 +1,7 @@
+
 import React from "react";
-import CardsReview from "../ReviewsGoogle";
 import "./Opinioes.css";
+import Carousel from "../Carousel";
 
 const Opinioes = () => {
   return (
@@ -12,7 +13,11 @@ const Opinioes = () => {
             <h1>pacientes</h1>
           </div>
         </div>
-        <CardsReview />
+        <div className="cards-carousel">
+          <div className="card-carousel">
+        <Carousel />
+          </div>
+        </div>
         <div className="btn-agendar">
           <div>
             <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">AGENDAR</a>

@@ -14,7 +14,7 @@
 
 .topo-espaco{
     height: 10%;
-    width: 100%;
+    width: 80%;
     margin-left: 3%;
     display: flex;
     align-items: center;
@@ -38,7 +38,6 @@ h1{
     display: flex;
 
 }
-
 
 
 .divisor-presencial{
@@ -381,7 +380,7 @@ h1{
     }
 
     .divisor-presencial{
-        width: 100%;
+        width: 95%;
         margin: 10px;
     }
 
@@ -419,6 +418,9 @@ h1{
         font-size: 0.5rem;
     }
 
+    .loc-norte{
+        font-size: 18px;
+    }
 
     .online{
         flex-direction: column;

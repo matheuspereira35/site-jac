@@ -5,7 +5,7 @@ import Blog from "./componentes/Blog";
 import Duvidas from "./componentes/Duvidas";
 import Espaco from "./componentes/Espaco";
 import Home from "./componentes/Home/";
-// import Opinioes from "./componentes/Opinioes";
+import Opinioes from "./componentes/Opinioes";
 import Psicoterapia from "./componentes/Psicoterapia";
 import Rodape from "./componentes/Rodape";
 import SobreMim from "./componentes/SobreMim";
@@ -53,9 +53,9 @@ function App() {
         <div ref={espacoRef}>
           <Espaco />
         </div>
-        {/* <div ref={opinioesRef}>
+        <div ref={opinioesRef}>
           <Opinioes />
-        </div> */}
+        </div>
         <div ref={duvidasRef}>
           <Duvidas />
         </div>
