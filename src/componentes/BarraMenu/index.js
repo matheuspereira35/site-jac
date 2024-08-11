@@ -13,9 +13,9 @@ const BarraMenu = ({ scrollToHome, scrollToSobreMim, scrollToPsicoterapia, scrol
         <button onClick={scrollToSobreMim}>Sobre mim</button>
         <button onClick={scrollToPsicoterapia}>Psicoterapia</button>
         <button onClick={scrollToEspaco}>Espaço</button>
-        <button onClick={scrollToBlog}>Blog: em breve</button>
         <button onClick={scrollToOpinioes}>Opiniões</button>
         <button onClick={scrollToDuvidas}>Dúvidas</button>
+        <button onClick={scrollToBlog}>Blog: em breve</button>
         <a
           rel="noreferrer"
           target="_blank"

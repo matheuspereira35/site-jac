@@ -145,6 +145,9 @@
 
 @media screen and (max-width: 1149px) {
 
+  .home{
+    height: 100dvh;
+  }
 
   .divisor1 {
     width: 100%;

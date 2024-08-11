@@ -87,7 +87,8 @@
 }
 
 .card3{
-    background-color: #96A67B;
+    /* background-color: #96A67B; */
+    background-image: url('../../assets/images/artigo.png');
     width: 100%;
     height: 50%;
     border-radius: 20px;
@@ -106,7 +107,7 @@
 
 .topo-card3 p{
     font-size: 2rem;
-    color: white;
+    color: black;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -121,13 +122,27 @@
 .link-artigo a{
     width: 80%;
     font-size: 1.5rem;
-    color: white;
+    color: black;
     font-family: 'Raleway';
 }
 
 .seta_card3{
     width: 80%;
     display: flex;
+}
+
+.div-icon-download{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.icon-download{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .card4{
@@ -170,25 +185,38 @@
 }
 
 .card-inteligencia-emocional{
-    /* background-image: url("../../assets/images/ebooklinguagensdoamor.png");
-    background-size: contain; */
+    background-image: url("../../assets/images/ebooklinguagensdoamor.png");
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: #DBD4CE;
     width: 100%;
     height: 25%;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 .card-entendendo-ciclo{
     background-image: url("../../assets/images/ebookciclomenstrual.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #EF3705;
+    width: 100%;
+    height: 25%;
+    border-radius: 20px;
+}
+
+.card-luto{
+    background-image: url("../../assets/images/luto.jpg");
     background-size: cover;
     background-repeat: round;
     width: 100%;
-    height: 45%;
+    height: 25%;
     border-radius: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 1534) {
@@ -214,21 +242,19 @@
     display: none;
    }
 
-   .card1, .card2,.card-inteligencia-emocional{
-    width: 150px;
+   .card1, .card2,.card3{
+    width: 250px;
+    height: 45%;
+   }
+
+ 
+
+   .card-entendendo-ciclo, .card-inteligencia-emocional, .card-luto {
+    width: 250px;
     height: 25%;
    }
 
-   .card-entendendo-ciclo, .card3 {
-    width: 150px;
-    height: 25%;
-   }
-
-   .card-inteligencia-emocional{
-    background-image: url("../../assets/images/ebooklinguagensdoamor.png");
-    background-size: contain;
-    background-position: center;
-   }
+  
 
    .link-artigo a{
     width: 50%;
@@ -241,4 +267,16 @@
     width: 35px;
    }
 
+}
+
+@media screen and (max-width: 640px) {
+    .card1, .card2,.card3{
+        width: 150px;
+        height: 45%;
+       }
+ 
+       .card-entendendo-ciclo, .card-inteligencia-emocional, .card-luto {
+        width: 150px;
+        height: 25%;
+       }
 }

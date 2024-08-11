@@ -24,8 +24,8 @@ const Home = ({ scrollToSobreMim, scrollToPsicoterapia, scrollToEspaco, scrollTo
             <button onClick={scrollToSobreMim}>SOBRE MIM</button>
             <button onClick={scrollToPsicoterapia}>PSICOTERAPIA</button>
             <button onClick={scrollToEspaco}>ESPAÇO</button>
-            <button onClick={scrollToContatos}>ENTRE EM CONTATO</button>
             <button onClick={scrollToBlog}>BLOG: EM BREVE</button>
+            <button onClick={scrollToContatos}>ENTRE EM CONTATO</button>
           </div>
         </div>
       </div>

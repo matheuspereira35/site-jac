@@ -51,6 +51,7 @@
 @media screen and (max-width: 900px) and (min-width: 450px) {
     .titulo-accordion, .texto-accordion{
         font-size: 1rem;
+        
     }
 }
 @media screen and (max-width: 450px) {

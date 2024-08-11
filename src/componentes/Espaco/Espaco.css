@@ -288,7 +288,7 @@ h1{
     }
 
     .divisor-presencial{
-        width: 100%;
+        width: 95%;
         margin: 10px;
     }
     .topo-presencial{
@@ -322,6 +322,7 @@ h1{
 
     .endereco-sul {
         justify-content: flex-end;
+        width: 100%;
     }
     .div-loc-sul{
         width: fit-content;

@@ -20,7 +20,7 @@ const Opinioes = () => {
         </div>
         <div className="btn-agendar">
           <div>
-            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">AGENDAR</a>
+            <a href="https://wa.me/5561992081099" target="_blank" rel="noreferrer">AGENDAR</a>
           </div>
         </div>
       </div>
