@@ -26,10 +26,18 @@
 
 .menu button{
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     color: #777E5C;
     font-size: 1.1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    height: 40px;
 }
+
+.menu button:hover{
+    border-bottom: 1px solid #777E5C;
+}
+
 
 .btn-wpp{
     background-color: #EDEADD;
@@ -46,6 +54,10 @@
 
 .btn-wpp img{
     width: 20px;
+}
+
+.btn-wpp:hover{
+    box-shadow: inset 0px -8px 7px -7px rgba(119,126,92,1);
 }
 
 

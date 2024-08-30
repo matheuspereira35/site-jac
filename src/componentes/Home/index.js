@@ -5,14 +5,14 @@ import LogoMail from "../../assets/images/email-logo.png";
 import LogoWpp from "../../assets/images/wpp-logo.png";
 import LogoLink from "../../assets/images/logo-link.png";
 import LogoBranca from "../../assets/images/logo-branca.png";
-import VideoBg from "../../assets/images/video-bg.mp4";
+// import VideoBg from "../../assets/images/video-bg.mp4";
 
 const Home = ({ scrollToSobreMim, scrollToPsicoterapia, scrollToEspaco, scrollToContatos, scrollToBlog }) => {
   return (
     <div className="home">
-      <div className="bg-video">
+      {/* <div className="bg-video">
         <video src={VideoBg} autoPlay loop muted />
-      </div>
+      </div> */}
       <div className="logo-btns">
         <div className="divisor1">
           <div className="logo">
@@ -26,9 +26,6 @@ const Home = ({ scrollToSobreMim, scrollToPsicoterapia, scrollToEspaco, scrollTo
             <button onClick={scrollToEspaco}>ESPAÇO</button>
             <button onClick={scrollToBlog}>BLOG: EM BREVE</button>
             <button onClick={scrollToContatos}>ENTRE EM CONTATO</button>
-          </div>
-        </div>
-      </div>
       <div className="contato">
         <div className="contatos">
           <a rel="noreferrer" target="_blank" href="https://www.instagram.com">
@@ -47,6 +44,9 @@ const Home = ({ scrollToSobreMim, scrollToPsicoterapia, scrollToEspaco, scrollTo
           <a rel="noreferrer" target="_blank" href="https://linktr.ee/psijacquelineguimaraes?utm_source=linktree_admin_share">
             <img className="linktree" src={LogoLink} alt="link" />
           </a>
+        </div>
+      </div>
+          </div>
         </div>
       </div>
     </div>

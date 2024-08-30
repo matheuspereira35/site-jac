@@ -1,5 +1,18 @@
+.card-review{
+    background-image: url('../../assets/images/bg-review.png');
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 950px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .review-card{
-    background-color: white;
+    background-color: transparent;
     width: 300px;
     height: 300px;
     display: flex;

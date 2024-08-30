@@ -9,7 +9,7 @@ const SobreMim = () => {
       <div className="sobre-mim-principal">
         <div className="textos-sobre">
         <div className="sobre-mim-texto">
-          <h1>Sobre Mim</h1>
+          <h1>Sobre mim</h1>
           <p><b>
           Olá! Sou a Jacqueline Guimarães, psicóloga clínica
           </b>

@@ -15,37 +15,14 @@
     border-radius: 600px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 
   }
   
-  .titulo-opinioes {
-    height: 150px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .titulo-opinioes div {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  
-  .bg-opinioes1 h1 {
-    font-size: 60px;
-    font-family: 'Open-Sans';
-  }
 
   .cards-carousel{
     width: 90%;
-    height: 400px;
     display: flex;
     justify-content: center;
   }

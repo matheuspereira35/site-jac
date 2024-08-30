@@ -1,24 +1,10 @@
 import "./cards.css";
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faStarHalfAlt, faStar as faStarOutline } from '@fortawesome/free-solid-svg-icons';
 import DoctoraliaIcon from "../UI/doctoralia";
 import GoogleIcon from "../UI/google";
 
 const OpinioesCards = ({ author, content, rating, source }) => {
-  const renderStars = () => {
-    const stars = [];
-    for (let i = 1; i <= 5; i++) {
-      if (i <= rating) {
-        stars.push(<FontAwesomeIcon key={i} icon={faStar} />);
-      } else if (i - rating < 1) {
-        stars.push(<FontAwesomeIcon key={i} icon={faStarHalfAlt} />);
-      } else {
-        stars.push(<FontAwesomeIcon key={i} icon={faStarOutline} />);
-      }
-    }
-    return stars;
-  };
+ 
 
   const renderSourceIcon = () => {
     switch (source) {
@@ -46,11 +32,12 @@ const OpinioesCards = ({ author, content, rating, source }) => {
   }
 
   return (
+    <div className="card-review">
     <div className="review-card">
       <div className="source-icon"><a target="_blank" rel="noreferrer" href={renderSourceLink()}>{renderSourceIcon()}</a></div>
       <p>{content}</p>
       <h3>– {author}</h3>
-      <div className="rating">{renderStars()}</div>
+    </div>
     </div>
   );
 };
