@@ -1,7 +1,7 @@
 import "./Rodape.css";
 import WppLogo from "../../assets/images/whatsapp.png";
 import MailLogo from "../../assets/images/email-logo.png";
-import LogoBranca from "../../assets/images/logo-branca.png";
+import LogoBranca from "../../assets/images/LogoSemSombra.png";
 import Linktree from "../../assets/images/logo-link.png";
 import WppBranco from "../../assets/images/wpp-logo.png";
 import InstaLogo from "../../assets/images/insta-logo.png";
@@ -62,15 +62,15 @@ const Rodape = () => {
       <div className="divisor-rodape"></div>
       <div className="rodape-rodape">
         <div className="politicas-termos">
-          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+          <p>
             Política de Privacidade
-          </a>
-          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+          </p>
+          <p>
             Termos e condições
-          </a>
-          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+          </p>
+          <p>
             © 2023 Jacqueline Guimarães ∙ Todos os direitos reservados
-          </a>
+          </p>
         </div>
         <div className="icons-rodape">
           <div className="rodape-icons">

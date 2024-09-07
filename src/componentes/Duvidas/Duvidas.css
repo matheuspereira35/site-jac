@@ -1,12 +1,11 @@
 .principal-duvidas{
     width: 100vw;
     height: 150vh;
-
     background-color: #F6F8F4;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .topo-duvidas{
@@ -16,7 +15,7 @@
 .topo-duvidas h1{
     color: #777E5C;
     font-size: 70px;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
     font-weight: 400;
 }
 

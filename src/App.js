@@ -4,6 +4,7 @@ import BarraMenu from "./componentes/BarraMenu";
 import Blog from "./componentes/Blog";
 import Duvidas from "./componentes/Duvidas";
 import Espaco from "./componentes/Espaco";
+import EspacoMobile from "./componentes/EspacoMobile";
 import Home from "./componentes/Home/";
 import Opinioes from "./componentes/Opinioes";
 import Psicoterapia from "./componentes/Psicoterapia";
@@ -12,7 +13,7 @@ import SobreMim from "./componentes/SobreMim";
 import Wpp from "./componentes/Wpp";
 
 function App() {
-  // Cria referências para as seções
+
   const sobreMimRef = useRef(null);
   const psicoterapiaRef = useRef(null);
   const espacoRef = useRef(null);
@@ -52,6 +53,9 @@ function App() {
         </div>
         <div ref={espacoRef}>
           <Espaco />
+        </div>
+        <div ref={espacoRef}>
+          <EspacoMobile />
         </div>
         <div ref={opinioesRef}>
           <Opinioes />

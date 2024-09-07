@@ -42,3 +42,9 @@
   .source-icon .fa-app-store-ios {
     color: #000;
   }
+
+  @media screen and (max-width: 900px) {
+    .carousel{
+      width: 90%;
+    }
+  }

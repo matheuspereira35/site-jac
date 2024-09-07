@@ -19,17 +19,17 @@
     display: flex;
     align-items: center;
 }
-.topo-espaco h1{
-    font-size: 44px;
-    font-weight: 500;
+.topo-espaco > h1{
+    font-size: 44px !important;
+    font-weight: 500 !important;
     color: #FFFFFF;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
 }
-h1{
+.espaco-principal  h1{
     font-size: 32px;
     font-weight: 400;
     color: #FFFFFF;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
 }
 
 .presencial{
@@ -68,6 +68,7 @@ h1{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 21px 21px 35px -1px rgba(0,0,0,0.75);
 }
 
 .asa-norte h4{
@@ -165,6 +166,7 @@ h1{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: 21px 21px 35px -1px rgba(0,0,0,0.75);
 }
 
 .asa-sul h4{
@@ -250,6 +252,7 @@ h1{
     font-size: 16px;
     color: #FFFFFF;
     text-align: left;
+    font-family: 'Agrandir';
 }
 
 .topicos-online svg{

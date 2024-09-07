@@ -33,7 +33,7 @@
     color: #FFFFFF;
     font-size: 3.5rem;
     font-weight: 500;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
 }
 .sobre-mim-texto p{
     color: #FFFFFF;
@@ -43,8 +43,10 @@
     text-align: center;
 }
 
-.dots-texto{
-    display: none;
+.sobre-mim-topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sobre-mim-texto a{
@@ -75,6 +77,10 @@
 
 }
 
+.sobre-mim-topo-mbl{
+   display: none;
+}
+
 .foto-jac{
     border: 1px solid white;
     border-radius: 100px;
@@ -86,7 +92,7 @@
 }
 
 
-@media screen and (max-width: 1534px) and (min-width: 900px) {
+@media screen and (max-width: 1534px) {
     .sobre-mim{
         padding: 0;
 
@@ -103,12 +109,6 @@
         background-color: #F6F8F4;
     }
 
-    .dots-texto{
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .textos-sobre{
         width: 100%;
@@ -121,7 +121,7 @@
         height: 50%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     
     }
     
@@ -129,8 +129,8 @@
     .foto-jac{
         border: 1px solid transparent;
         border-radius: 100px;
-        width: 300px;
-        height: 500px;
+        width: 200px;
+        height: 350px;
         background-image: url('../../assets/images/foto2jac.png');
         
     }
@@ -153,7 +153,7 @@
         box-shadow: 0px 0px 59px 8px rgba(0, 0, 0, 0.75);
     }
 }
-@media screen and (max-width: 900px)  {
+@media screen and (max-width: 600px)  {
 
     .sobre-mim{
         padding: 0;
@@ -178,15 +178,23 @@
         justify-content: center;
     }
 
-    .dots-texto{
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+ 
+    .sobre-mim-topo{
+        display: none;
     }
 
-    .dots-texto svg{
-        width: 15px;
+    .div-foto-jac{
+        display: none;
+    }
+
+
+    .foto-sobre-mbl{
+        display: block;
+        width: 100%;
+        height: 60%;
+        background-image: url('../../assets/images/bg-sobremim.PNG');
+        background-size: cover;
+        background-position: center;
     }
 
     .sobre-mim-texto p{
@@ -214,25 +222,6 @@
         margin-bottom: 10px;
     }
 
-    .div-foto-jac{
-        width: 100%;
-        height: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    
-
-    .foto-jac{
-        border: 1px solid transparent;
-        border-radius: 100px;
-        width: 300px;
-        height: 500px;
-        background-image: url('../../assets/images/foto2jac.png');
-
-        
-    }
 }
 
 @media screen and (max-width: 412px) {

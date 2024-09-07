@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     width: 700px;
-    height: 950px;
+    height: 900px;
 
     display: flex;
     justify-content: center;
@@ -25,9 +25,30 @@
     text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+.doctoralia-icon{
+    width: 40px;
+}
+
+@media screen and (max-width: 900px) {
     .review-card{
         width: 200px;
-        height: fit-content;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card-review{
+        width: 400px;
+        height: 630px;
+    }
+
+    .review-card p{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.2em;
+        max-height: 3.6em;  
     }
 }

@@ -1,9 +1,9 @@
 import "./cards.css";
 import React from 'react';
-import DoctoraliaIcon from "../UI/doctoralia";
+import DoctaraliaIcon from "../../assets/images/doctoria.png";
 import GoogleIcon from "../UI/google";
 
-const OpinioesCards = ({ author, content, rating, source }) => {
+const OpinioesCards = ({ author, content, source }) => {
  
 
   const renderSourceIcon = () => {
@@ -11,7 +11,7 @@ const OpinioesCards = ({ author, content, rating, source }) => {
       case 'google':
         return <GoogleIcon />;
       case 'doctoralia':
-        return <DoctoraliaIcon /> 
+        return <img src={DoctaraliaIcon} alt="doctoralia" className="doctoralia-icon"/> 
         
       default:
         return null;

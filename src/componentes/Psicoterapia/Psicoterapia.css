@@ -17,7 +17,7 @@
     font-size: 55px;
     color: #7A6D4E;
     font-weight: 500;
-    font-family: 'Open-Sans';
+    font-family: 'Agrandir';
 }
 
 .topicos-topo{
@@ -32,7 +32,7 @@
     font-size: 30px;
     color: #7A6D4E;
     text-align: center;
-    font-family: 'Open-Sans';
+    font-family: 'Agrandir';
 }
 
 .topico-topo{
@@ -63,7 +63,7 @@
 
 .topico-psicoterapia{
     /* background-color: aqua; */
-    width: 80%;
+    width: 100%;
     height: 30%;
     display: flex;
 }
@@ -89,7 +89,7 @@
     font-size: 44px;
     font-weight: 200;
     color: #283106;
-    font-family: 'Open-Sans';
+    font-family: 'Agrandir';
 }
 
 .passo-psi h2{
@@ -168,6 +168,24 @@
 
 }
 
+@media screen and (min-width: 1200px) {
+    .img-psi-barco{
+        position: relative;
+        right: 400px;
+    }
+
+    .img-psi-chat{
+        position: relative;
+        left: 200px;
+    }
+
+    .img-psi-bike{
+        position: relative;
+        right: 350px;
+    }
+}
+
+
 @media screen and (max-width: 1630px) {
     .topicos-topo{
         display: flex;
@@ -182,7 +200,7 @@
         font-size: 0.8rem;
         color: #7A6D4E;
         text-align: center;
-        font-family: 'Open-Sans';
+        font-family: 'Agrandir';
     }
 
     .topicos-topo svg{
@@ -252,13 +270,14 @@
         justify-content: space-around;
         height: max-content;
         width: 50%;
+        margin-bottom: 20px;
     }
     
     .topicos-topo p{
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: #7A6D4E;
         text-align: center;
-        font-family: 'Open-Sans';
+        font-family: 'Agrandir';
     }
     
     .topico-topo{

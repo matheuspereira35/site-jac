@@ -38,7 +38,7 @@
 
 .wpp-rodape p{
     font-size: 25px;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
     color: white;
 }
 
@@ -49,7 +49,7 @@
 
 .mail-rodape{
     display: flex;
-    width: 60%;
+    width: 55%;
     justify-content: space-between;
 }
 
@@ -59,7 +59,7 @@
 
 .mail-rodape p{
     font-size: 25px;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
     margin-top: 0;
     color: white;
 }
@@ -71,13 +71,13 @@
 
 .form-rodape{
     display: flex;
-    width: 50%;
+    width: 48%;
     justify-content: space-between;
 }
 
 .form-rodape p{
     font-size: 25px;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
     margin-top: 0;
     color: white;
 }
@@ -121,8 +121,8 @@
     flex-wrap: wrap;
 }
 
-.politicas-termos a{
-    font-family: 'Open Sans';
+.politicas-termos p{
+    font-family: 'Agrandir';
     font-size: 30px;
     color: white;
     text-decoration: none;
@@ -157,7 +157,7 @@
 }
 
 .link-icon-rodape{
-    width: 100px;
+    width: 120px;
     height: 30px;
 }
 
@@ -176,21 +176,22 @@
    }
 
    .topo-rodape{
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: flex-end;
    }
 
    .logo-rodape{
     width: 100%;
-    height: 20%;
+    height: 30%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
+
    }
 
    .logo-rodape img{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
    }
 
 
@@ -211,7 +212,7 @@
 
 .wpp-rodape p{
     font-size: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
     color: white;
 }
 
@@ -229,7 +230,7 @@
 
 .mail-rodape p{
     font-size: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
     margin-top: 0;
     color: white;
 }
@@ -248,7 +249,7 @@
 
 .form-rodape p{
     font-size: 20px;
-    font-family: 'Open Sans';
+    font-family: 'Agrandir';
     margin-top: 0;
     color: white;
 }
@@ -299,8 +300,12 @@
 
 }
 
-.politicas-termos a{
+.politicas-termos p{
     font-size: 1rem;
 }
 
+}
+
+@media screen and (max-width: 900px) {
+    
 }

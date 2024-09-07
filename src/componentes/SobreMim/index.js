@@ -1,7 +1,6 @@
 
-import Dots from "../UI/dots";
 import "./SobreMim.css";
-// import FotoJac from "../../images/foto-jac.jpg";
+
 
 const SobreMim = () => {
   return (
@@ -9,17 +8,13 @@ const SobreMim = () => {
       <div className="sobre-mim-principal">
         <div className="textos-sobre">
         <div className="sobre-mim-texto">
+          
+          <div className="sobre-mim-topo">
           <h1>Sobre mim</h1>
-          <p><b>
-          Olá! Sou a Jacqueline Guimarães, psicóloga clínica
-          </b>
-         <div className="dots-texto">
-          <Dots />
-          <Dots />
-          <Dots />
-          <Dots />
-         </div>
+          <p>
+          Olá! Sou a Jacqueline Guimarães, psicóloga clínica.
           </p>
+          </div>
           <p>
           Graduada pelo UniCEUB e inscrita no Conselho 
           Regional de Psicologia CRP - 01/25708.
@@ -43,6 +38,9 @@ const SobreMim = () => {
          
           </div>
         </div>
+  
+          <div className="foto-sobre-mbl"></div>
+        
       </div>
     </div>
   );
