@@ -16,6 +16,8 @@
     flex-direction: column;
 
     position: relative;
+
+    background-color: #F5F7F4;
 }
 
 .container{

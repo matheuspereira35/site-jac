@@ -11,6 +11,7 @@ import Psicoterapia from "./componentes/Psicoterapia";
 import Rodape from "./componentes/Rodape";
 import SobreMim from "./componentes/SobreMim";
 import Wpp from "./componentes/Wpp";
+import BlogMob from "./componentes/BlogMob";
 
 function App() {
 
@@ -66,9 +67,13 @@ function App() {
         <div ref={blogRef}>
           <Blog />
         </div>
+
+        <div>
+          <BlogMob />
+        </div>
+
         <div  ref={contatosRef}>
         <Rodape/>
-
         </div>
         <Wpp />
       </div>

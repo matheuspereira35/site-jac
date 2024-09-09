@@ -158,6 +158,7 @@
     .sobre-mim{
         padding: 0;
         height: 135vh;
+        margin-bottom: 10vh;
     }
 
     .sobre-mim-principal{
@@ -191,10 +192,11 @@
     .foto-sobre-mbl{
         display: block;
         width: 100%;
-        height: 60%;
+        height: 70%;
         background-image: url('../../assets/images/bg-sobremim.PNG');
-        background-size: cover;
+        background-size: contain;
         background-position: center;
+        background-repeat: no-repeat;
     }
 
     .sobre-mim-texto p{

@@ -224,8 +224,16 @@
     color: black;
 }
 
-@media screen and (max-width: 1534) {
+@media screen and (max-width: 1700px) {
+    .card-luto{
+        background-repeat:space;
+       }
+}
 
+@media screen and (max-width: 1300px) {
+    .principal-blog{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -281,8 +289,5 @@
        .card-entendendo-ciclo, .card-inteligencia-emocional, .card-luto {
         width: 150px;
         height: 25%;
-       }
-       .card-luto{
-        background-repeat: no-repeat;
        }
 }

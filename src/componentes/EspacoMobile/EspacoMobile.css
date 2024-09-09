@@ -1,6 +1,7 @@
 .espaco-mobile{
     width: 100vw;
     height: 320vh;
+    background-color: #F5F7F4;
 }
 
 .espaco-local{
@@ -138,4 +139,10 @@
     font-weight: 100 !important;
     font-size: 20px;
     color: #6F6F20;
+}
+
+@media screen and (min-width: 900px) {
+    .espaco-mobile{
+        display: none;
+    }
 }

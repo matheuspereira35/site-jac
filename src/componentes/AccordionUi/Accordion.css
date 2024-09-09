@@ -60,6 +60,10 @@
 
 }
 @media screen and (max-width: 900px) and (min-width: 450px) {
+    .accordion{
+        width: 450px;
+    }
+
     .titulo-accordion, .texto-accordion{
         font-size: 1rem;
         
