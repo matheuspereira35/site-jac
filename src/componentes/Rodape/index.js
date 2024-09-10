@@ -1,6 +1,7 @@
 import "./Rodape.css";
 import WppLogo from "../../assets/images/whatsapp.png";
 import MailLogo from "../../assets/images/email-logo.png";
+// import LogoBranca from "../../assets/images/LogoSemSombra.png";
 import LogoBranca from "../../assets/images/LogoSemSombra.png";
 import Linktree from "../../assets/images/logo-link.png";
 import WppBranco from "../../assets/images/wpp-logo.png";

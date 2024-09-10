@@ -85,7 +85,7 @@ const Psicoterapia = () => {
                 </div>
             </div>
         </div>
-        <div className="topico-psicoterapia">
+        <div className="topico-psicoterapia2">
         <div className="img-psi-chat">
                 <div className="img-chat">
                 </div>

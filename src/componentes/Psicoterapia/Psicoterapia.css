@@ -69,6 +69,13 @@
     justify-content: center;
 }
 
+.topico-psicoterapia2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
 .passo-psi{
     display: flex;
     flex-direction: column;
@@ -124,6 +131,7 @@
     display: flex;
     align-items: flex-end;
 }
+
 
 .img-barco{
 
@@ -300,8 +308,24 @@
 
     .topico-psicoterapia{
         width: 100%;
+        flex-direction: column;
+    }
+
+    .topico-psicoterapia2{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .num-pis{
+        width: 100%;
+    }
+
+    .textos-psi{
+        width: 100%;
 
     }
+
+
     .passo-psi{
         width: 100%;
     }
@@ -311,36 +335,46 @@
     }
 
     .textos-psi h2{
-        font-size: 1rem;
+        font-size: 1.3rem;
+        font-weight: 400;
     }
     
     .textos-psi p{
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 500;
     }
 
+    .img-psi-barco{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
     .img-barco{
-        width: 100px;
-        height: 65px;
+        width: 300px;
+        height: 165px;
     }
 
     .img-psi-chat{
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
     .img-chat{
-        width: 100px;
-        height: 70px;
+        width: 300px;
+        height: 180px;
     }
 
     .img-psi-bike{
         justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .img-bike{
-        width: 120px;
-        height: 75px;
+        width: 320px;
+        height: 195px;
     }
 }
 

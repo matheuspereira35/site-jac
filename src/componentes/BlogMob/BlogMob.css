@@ -191,7 +191,8 @@
 }
 
 .icon-download-mob{
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     background-color: white;
     border-radius: 50%;
 }

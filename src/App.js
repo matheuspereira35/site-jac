@@ -55,7 +55,7 @@ function App() {
         <div ref={espacoRef}>
           <Espaco />
         </div>
-        <div ref={espacoRef}>
+        <div>
           <EspacoMobile />
         </div>
         <div ref={opinioesRef}>
