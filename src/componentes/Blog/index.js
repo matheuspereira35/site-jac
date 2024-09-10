@@ -1,6 +1,5 @@
 import "./Blog.css";
 import Ebook from "../../assets/images/EBOOKS.png";
-// import BlogImg from "../../assets/images/BLOG.png";
 import Doc from "../../assets/images/document.png";
 
 const Blog = () => {

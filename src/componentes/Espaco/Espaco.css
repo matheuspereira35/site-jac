@@ -1,11 +1,8 @@
 .espaco-principal{
     width: 100vw;
     height: 100vh;
-    /* background-color: #EDEADD; */
     display: flex;
     flex-direction: column;
-    /* border-radius: 50px; */
-
     background-image: url("../../assets/images/sala.png");
     background-size: cover;
 

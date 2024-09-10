@@ -5,7 +5,7 @@ import LogoMail from "../../assets/images/email-logo.png";
 import LogoWpp from "../../assets/images/wpp-logo.png";
 import LogoLink from "../../assets/images/logo-link.png";
 import LogoBranca from "../../assets/images/logo-branca.png";
-// import VideoBg from "../../assets/images/video-bg.mp4";
+
 
 const Home = ({ scrollToSobreMim, scrollToPsicoterapia, scrollToEspaco, scrollToContatos, scrollToBlog }) => {
   return (
